@@ -20,7 +20,7 @@ body {
 }
 
 .honk-button {
-    background: url("/content/test.png") no-repeat;
+    background: url("/content/handle.png") no-repeat;
     background-size: contain;
     size: auto;
     width: 83px;
@@ -28,6 +28,7 @@ body {
     top: -5%;
     left: 10%;
     position: fixed;
+    border: none;
 }
 .animate{
     animation: press 2s ease-in-out 1;
