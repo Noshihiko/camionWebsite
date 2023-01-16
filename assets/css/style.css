@@ -1,0 +1,40 @@
+:root {
+    --color1: #ffff;
+    --color1: #ffff;
+    --color1: #ffff;
+    --color1: #ffff;
+}
+
+body {
+    background: aliceblue;
+    color: black;
+}
+
+#bottom-text {
+    width: 100% ;
+    position: fixed;
+    bottom: 3px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: small;
+}
+
+.honk-button {
+    background: url("/content/test.png") no-repeat;
+    background-size: contain;
+    size: auto;
+    width: 83px;
+    height: 35%;
+    top: -5%;
+    left: 10%;
+    position: fixed;
+    border: none;
+}
+.animate{
+    animation: press 2s ease-in-out 1;
+}
+@keyframes press {
+    0% {top: -5%;}
+    50% {top: -1%;}
+    100% {top: -5%;}
+}
