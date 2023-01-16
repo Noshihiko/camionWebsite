@@ -28,7 +28,6 @@ body {
     top: -5%;
     left: 10%;
     position: fixed;
-    border: none;
 }
 .animate{
     animation: press 2s ease-in-out 1;
